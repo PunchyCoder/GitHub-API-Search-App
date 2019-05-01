@@ -9,7 +9,7 @@ function buildHTML(response) {
 		$(".results")
 		.append(
 			`<h2>${response[i].name}</h2>
-			<a  target="_blank" href=${response[i].owner.html_url}>--Link to Repo!</a>`)
+			<a  target="_blank" href=${response[i].html_url}>--Link to Repo!</a>`)
 	}
 }
 
